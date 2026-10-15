@@ -5,8 +5,26 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "opencv-python>=5.0.0.93",
+    "pydantic>=2.14.0",
     "pydantic-settings>=2.15.0",
+    "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "ultralytics",
 ]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
