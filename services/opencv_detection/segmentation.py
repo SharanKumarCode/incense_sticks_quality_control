@@ -1,13 +1,12 @@
 import cv2
 import numpy as np
-from numpy.typing import NDArray
 from dataclasses import dataclass
+import logging
 
 from services.opencv_detection.config import SegmentationConfig
+from services.opencv_detection.image_transform_helper import ImageArray, Contour
 
-ImageArray = NDArray[np.uint8]
-Contour = NDArray[np.int32]
-
+logger = logging.getLogger(__name__)
 segmentation_config = SegmentationConfig()
 
 @dataclass(frozen=True, slots=True)
@@ -38,7 +37,7 @@ def describe_contours(contours: list[Contour]) -> None:
     Args:
         contours (list[Contour]): A list of contours.
     """
-    print(f"Contours found: {len(contours)}")
+    logger.debug(f"Contours found: {len(contours)}")
 
     sorted_contours = sorted(contours, key=cv2.contourArea, reverse=True)
 
@@ -47,7 +46,7 @@ def describe_contours(contours: list[Contour]) -> None:
 
         x, y, width, height = cv2.boundingRect(contour)
 
-        print(
+        logger.debug(
             f"{index}: "
             f"Area: {area:.2f}, "
             f"Bounding Box: (x: {x}, y: {y}, width: {width}, height: {height})"
@@ -90,7 +89,6 @@ def is_plausible_stick(candidate: ContourCandidate) -> bool:
     Args:
         candidate (ContourCandidate): The contour candidate to evaluate.
     """
-    print(candidate.area, segmentation_config.min_contour_area)
     if candidate.area < segmentation_config.min_contour_area:
         return False
 

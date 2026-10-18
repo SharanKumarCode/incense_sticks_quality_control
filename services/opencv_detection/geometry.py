@@ -4,8 +4,7 @@ import cv2
 import numpy as np
 from numpy.typing import NDArray
 
-
-Contour = NDArray[np.uint32]
+from services.opencv_detection.image_transform_helper import Contour
 
 
 @dataclass(frozen=True, slots=True)
