@@ -4,6 +4,11 @@ from enum import StrEnum
 
 from utils.logger import get_logger
 
+from exceptions.opencv_exceptions import (
+    AnalysisError,
+    InvalidGeometryError,
+    NoStickDetectedError
+)
 from services.opencv_detection.config import OpenCVDetectionConfig
 from services.opencv_detection.preprocessing import ImagePreprocessor
 from services.opencv_detection.segmentation import create_stick_mask, find_stick_candidates, select_primary_stick
@@ -177,22 +182,11 @@ class OpenCVDetector:
             )
         )
 
-    @staticmethod
-    def _analysis_error(
-        analysis_name: str,
-        error: ValueError
-    ) -> OpenCVDetectionResult:
-        
-        return OpenCVDetector._inspection_error(
-            error_type=InspectionErrorType.ANALYSIS_FAILED,
-            message=f"{analysis_name} analysis failed : {error}"
-        )
 
-
-    def inspect(self, image_path: str | Path) -> OpenCVDetectionResult:
+    def measure(self, image_path:  str | Path) -> DetectionMeasurements:
 
         results  = self.preprocessor.preprocess(image_path)
-
+        
         mask = results["adaptive_inverted"]
 
         candidates = find_stick_candidates(mask)
@@ -200,18 +194,12 @@ class OpenCVDetector:
         primary = select_primary_stick(candidates)
 
         if primary is None:
-            return self._inspection_error(
-                error_type=InspectionErrorType.NO_STICK_DETECTED,
-                message="No incense stick candidate detected in the image"
-            )
+            raise NoStickDetectedError("No incense stick candidate detected in the image")
 
         geometry = extract_geometry(primary.contour)
 
         if geometry.length_px <= 0 or geometry.width_px <= 0:
-            return self._inspection_error(
-                error_type=InspectionErrorType.INVALID_GEOMETRY,
-                message="Detected stick produced invalid geometry"
-            )
+            raise InvalidGeometryError("Detected stick produced invalid geometry")
 
         straightness: StraightnessResult | None = None
         breakage: BreakageResult | None = None
@@ -229,9 +217,9 @@ class OpenCVDetector:
                     length_px=geometry.length_px
                 )
             except ValueError as error:
-                return self._analysis_error(
+                raise AnalysisError(
                     analysis_name="Straightness",
-                    error=error
+                    message=error
                 )
 
         if self.config.check.broken:
@@ -258,9 +246,9 @@ class OpenCVDetector:
                 width_anomalies = analyse_width_anomalies(width_profile)
 
             except ValueError as error:
-                return self._analysis_error(
+                raise AnalysisError(
                     analysis_name="Width",
-                    error=error
+                    message=error
                 )
 
         if self.config.check.shape_irregularity:
@@ -275,6 +263,31 @@ class OpenCVDetector:
             width_anomalies=width_anomalies,
             shape_irregularity=shape_irregularity
         )
+
+        return measurements
+    
+
+    def inspect(self, image_path: str | Path) -> OpenCVDetectionResult:
+
+        try:
+
+            measurements = self.measure(image_path)
+
+        except NoStickDetectedError as error:
+            return self._inspection_error(
+                error_type=InspectionErrorType.NO_STICK_DETECTED,
+                message=str(error)
+            )
+        except InvalidGeometryError as error:
+            return self._inspection_error(
+                error_type=InspectionErrorType.INVALID_GEOMETRY,
+                message=str(error)
+            )
+        except AnalysisError as error:
+            return self._inspection_error(
+                error_type=InspectionErrorType.ANALYSIS_FAILED,
+                message=str(error)
+            )
 
         quality = self._evaluate_quality(measurements)
 

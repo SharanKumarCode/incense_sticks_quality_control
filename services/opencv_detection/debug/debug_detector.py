@@ -6,6 +6,8 @@ from services.opencv_detection.detector import OpenCVDetector
 from utils.logger import configure_logging, get_logger, inspection_id
 from uuid import uuid4
 
+from time import perf_counter_ns
+
 
 logger = get_logger(__name__)
 
@@ -14,6 +16,8 @@ IMAGE_PATH = Path("/home/sharan/Documents/python/incense_stick_quality_control/d
 # IMAGE_PATH = Path("/home/sharan/Documents/python/incense_stick_quality_control/dataset/train/defective/IMG-20260728-WA0006.jpg")
 
 def main():
+
+    start_time = perf_counter_ns()
 
     token = inspection_id.set(str(uuid4()))
 
@@ -54,6 +58,8 @@ def main():
             )
 
     finally:
+        end_time = perf_counter_ns() - start_time
+        logger.info(f"Time taken to complete OpenCV detection : {end_time / 1_000_000_000} secs")
         inspection_id.reset(token)
 
 
