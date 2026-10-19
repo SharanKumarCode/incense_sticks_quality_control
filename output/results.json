@@ -1,0 +1,2467 @@
+{
+    "bad_sticks": [
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0013.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 74.05858612060547,
+                "skel_length": 51697.0,
+                "avg_width": 62.788795471191406,
+                "width_variance": 75.34052447655658,
+                "solidity": 0.8160567691665507,
+                "perimeter": 315.09545278549194,
+                "shape_anomaly": 0.36936154067578086,
+                "hough_lines_count": 161.0,
+                "aspect_ratio": 1.1794872885335863,
+                "straightness": 0.048201233231877166
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0003.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 177.10562133789062,
+                "skel_length": 57213.0,
+                "avg_width": 18.73232650756836,
+                "width_variance": 4.496928693806558,
+                "solidity": 0.4688984881209503,
+                "perimeter": 454.2670257091522,
+                "shape_anomaly": 0.6728056747083652,
+                "hough_lines_count": 181.0,
+                "aspect_ratio": 9.454544862130993,
+                "straightness": 0.23942085185466347
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0016.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 291.0141906738281,
+                "skel_length": 51590.0,
+                "avg_width": 25.8110408782959,
+                "width_variance": 11.017870072185135,
+                "solidity": 0.4079150248415282,
+                "perimeter": 926.3919162750244,
+                "shape_anomaly": 0.6830142713354567,
+                "hough_lines_count": 151.0,
+                "aspect_ratio": 11.274794846361171,
+                "straightness": 0.17128584321973622
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0009.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 202.4833526611328,
+                "skel_length": 52754.0,
+                "avg_width": 31.404998779296875,
+                "width_variance": 15.01960333993116,
+                "solidity": 0.31854366658862093,
+                "perimeter": 647.5218590497971,
+                "shape_anomaly": 0.786050910736237,
+                "hough_lines_count": 166.0,
+                "aspect_ratio": 6.44748799654837,
+                "straightness": 0.15513696173784755
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0012.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 266.9458923339844,
+                "skel_length": 50331.0,
+                "avg_width": 21.09328269958496,
+                "width_variance": 7.259056212126363,
+                "solidity": 0.30971699980209777,
+                "perimeter": 747.4213538169861,
+                "shape_anomaly": 0.7220626412117082,
+                "hough_lines_count": 183.0,
+                "aspect_ratio": 12.655493037090755,
+                "straightness": 0.20260296058664118
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0017.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 227.33169555664062,
+                "skel_length": 52979.0,
+                "avg_width": 28.013179779052734,
+                "width_variance": 13.13658594309904,
+                "solidity": 0.24268835948092193,
+                "perimeter": 650.2497807741165,
+                "shape_anomaly": 0.8032436889644456,
+                "hough_lines_count": 162.0,
+                "aspect_ratio": 8.115169264955464,
+                "straightness": 0.17770121368293063
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0014.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 52.0,
+                "skel_length": 48656.0,
+                "avg_width": 21.0,
+                "width_variance": 8.124059359277648,
+                "solidity": 0.44083874188716926,
+                "perimeter": 239.9827550649643,
+                "shape_anomaly": 0.5956959706959707,
+                "hough_lines_count": 134.0,
+                "aspect_ratio": 2.4761904761904763,
+                "straightness": 0.14222714078605378
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0019.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 154.02957153320312,
+                "skel_length": 42593.0,
+                "avg_width": 58.76179885864258,
+                "width_variance": 50.76826631887229,
+                "solidity": 0.20921726408193123,
+                "perimeter": 554.1665204763412,
+                "shape_anomaly": 0.8736058903821035,
+                "hough_lines_count": 148.0,
+                "aspect_ratio": 2.621253510358605,
+                "straightness": 0.153481410560586
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0001.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 73.75263214111328,
+                "skel_length": 50051.0,
+                "avg_width": 42.431705474853516,
+                "width_variance": 42.264074493239185,
+                "solidity": 0.30458353868900934,
+                "perimeter": 334.3675310611725,
+                "shape_anomaly": 0.8025212075890689,
+                "hough_lines_count": 166.0,
+                "aspect_ratio": 1.738149134373626,
+                "straightness": 0.10322994208983248
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0004.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 316.005859375,
+                "skel_length": 54277.0,
+                "avg_width": 29.143205642700195,
+                "width_variance": 14.07515831703613,
+                "solidity": 0.35402165506573857,
+                "perimeter": 1274.8010773658752,
+                "shape_anomaly": 0.7017728713188673,
+                "hough_lines_count": 176.0,
+                "aspect_ratio": 10.843208645242267,
+                "straightness": 0.14870930703374644
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0018.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 189.11190795898438,
+                "skel_length": 50222.0,
+                "avg_width": 14.35138988494873,
+                "width_variance": 3.7322418256625833,
+                "solidity": 0.5531866636425493,
+                "perimeter": 501.4385987520218,
+                "shape_anomaly": 0.5506663275154796,
+                "hough_lines_count": 142.0,
+                "aspect_ratio": 13.177253874018069,
+                "straightness": 0.2596773368567461
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0008.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 191.0936737060547,
+                "skel_length": 49614.0,
+                "avg_width": 21.324378967285156,
+                "width_variance": 7.856170686881544,
+                "solidity": 0.3573735199138859,
+                "perimeter": 516.3086559772491,
+                "shape_anomaly": 0.7148434009682356,
+                "hough_lines_count": 161.0,
+                "aspect_ratio": 8.961277324850654,
+                "straightness": 0.2046323115862063
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0002.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 130.99903869628906,
+                "skel_length": 53959.0,
+                "avg_width": 15.932780265808105,
+                "width_variance": 4.582335293495903,
+                "solidity": 0.35755415409925967,
+                "perimeter": 367.1959581375122,
+                "shape_anomaly": 0.6876166195223785,
+                "hough_lines_count": 156.0,
+                "aspect_ratio": 8.221982385422978,
+                "straightness": 0.25592661764911095
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0007.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 193.498779296875,
+                "skel_length": 47235.0,
+                "avg_width": 21.503049850463867,
+                "width_variance": 8.393523470362727,
+                "solidity": 0.3093769278223319,
+                "perimeter": 540.8528122901917,
+                "shape_anomaly": 0.7589413934929817,
+                "hough_lines_count": 125.0,
+                "aspect_ratio": 8.998666730649877,
+                "straightness": 0.2061524104753938
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0010.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 181.79383850097656,
+                "skel_length": 47903.0,
+                "avg_width": 23.364992141723633,
+                "width_variance": 10.231186897512996,
+                "solidity": 0.41988600379987334,
+                "perimeter": 557.3380934000015,
+                "shape_anomaly": 0.6878245653378474,
+                "hough_lines_count": 147.0,
+                "aspect_ratio": 7.7806077313564055,
+                "straightness": 0.18417778701222093
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0006.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 378.9958801269531,
+                "skel_length": 44078.0,
+                "avg_width": 13.779241561889648,
+                "width_variance": 2.4402735740761843,
+                "solidity": 0.2898198297778269,
+                "perimeter": 867.4213535785675,
+                "shape_anomaly": 0.7489600215657175,
+                "hough_lines_count": 162.0,
+                "aspect_ratio": 27.50484331265172,
+                "straightness": 0.35565039924686737
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0015.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 113.92735290527344,
+                "skel_length": 47399.0,
+                "avg_width": 15.097517013549805,
+                "width_variance": 4.756830357310286,
+                "solidity": 0.5332405151409676,
+                "perimeter": 318.2253956794739,
+                "shape_anomaly": 0.5546563797312678,
+                "hough_lines_count": 139.0,
+                "aspect_ratio": 7.546098659999871,
+                "straightness": 0.19749571876502614
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0005.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 122.27774047851562,
+                "skel_length": 51320.0,
+                "avg_width": 18.278127670288086,
+                "width_variance": 7.448745421090538,
+                "solidity": 0.4782608695652174,
+                "perimeter": 313.39696860313416,
+                "shape_anomaly": 0.6604039231702749,
+                "hough_lines_count": 165.0,
+                "aspect_ratio": 6.689839500206772,
+                "straightness": 0.22398868592698593
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0000.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 180.17416381835938,
+                "skel_length": 36710.0,
+                "avg_width": 16.370258331298828,
+                "width_variance": 4.654104030351375,
+                "solidity": 0.4373107207752877,
+                "perimeter": 496.3675310611725,
+                "shape_anomaly": 0.6328188238990601,
+                "hough_lines_count": 102.0,
+                "aspect_ratio": 11.006189405934942,
+                "straightness": 0.21773107453156718
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/damaged/IMG-20260728-WA0011.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 428.10260009765625,
+                "skel_length": 42121.0,
+                "avg_width": 21.262699127197266,
+                "width_variance": 7.211900233789824,
+                "solidity": 0.4142974216730757,
+                "perimeter": 1085.8477597236633,
+                "shape_anomaly": 0.6390049060730065,
+                "hough_lines_count": 154.0,
+                "aspect_ratio": 20.133972527978223,
+                "straightness": 0.25508502044307824
+            }
+        }
+    ],
+    "good_sticks": [
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064953.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 213.1414337158203,
+                "skel_length": 429521.0,
+                "avg_width": 9.683775901794434,
+                "width_variance": 1.2122858621396069,
+                "solidity": 0.4969439277172469,
+                "perimeter": 478.16652047634125,
+                "shape_anomaly": 0.5469991702621217,
+                "hough_lines_count": 1268.0,
+                "aspect_ratio": 22.01015759527485,
+                "straightness": 0.30329428735163727
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064323.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 78.36204528808594,
+                "skel_length": 414576.0,
+                "avg_width": 60.01799011230469,
+                "width_variance": 76.28354615024179,
+                "solidity": 0.2686346863468635,
+                "perimeter": 382.4507910013199,
+                "shape_anomaly": 0.8452095478273218,
+                "hough_lines_count": 920.0,
+                "aspect_ratio": 1.305642610514883,
+                "straightness": 0.0834247572984275
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064408.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 443.63604736328125,
+                "skel_length": 436469.0,
+                "avg_width": 18.331844329833984,
+                "width_variance": 5.329130532934543,
+                "solidity": 0.31809428116888555,
+                "perimeter": 1098.575681567192,
+                "shape_anomaly": 0.7664357818301764,
+                "hough_lines_count": 1207.0,
+                "aspect_ratio": 24.200295364787166,
+                "straightness": 0.23036590295557072
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064903.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 230.06509399414062,
+                "skel_length": 536355.0,
+                "avg_width": 18.797775268554688,
+                "width_variance": 5.649818946552703,
+                "solidity": 0.24865000627904058,
+                "perimeter": 659.0782079696655,
+                "shape_anomaly": 0.7710830189156668,
+                "hough_lines_count": 2160.0,
+                "aspect_ratio": 12.238953318002388,
+                "straightness": 0.23703470130129192
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065250.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 189.28024291992188,
+                "skel_length": 463583.0,
+                "avg_width": 24.18601417541504,
+                "width_variance": 10.527120571534827,
+                "solidity": 0.23728567276954374,
+                "perimeter": 525.7228693962097,
+                "shape_anomaly": 0.8216444609860909,
+                "hough_lines_count": 1482.0,
+                "aspect_ratio": 7.826020507021958,
+                "straightness": 0.19535500188295002
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065219.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 303.9359130859375,
+                "skel_length": 466906.0,
+                "avg_width": 120.03132629394531,
+                "width_variance": 253.5824169594972,
+                "solidity": 0.14594567605352507,
+                "perimeter": 1443.4112483263016,
+                "shape_anomaly": 0.9198779244510926,
+                "hough_lines_count": 1540.0,
+                "aspect_ratio": 2.5321382548221396,
+                "straightness": 0.051755674311271115
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064238.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 144.0,
+                "skel_length": 444756.0,
+                "avg_width": 30.0,
+                "width_variance": 13.681012712445142,
+                "solidity": 0.2411222553537544,
+                "perimeter": 494.69343197345734,
+                "shape_anomaly": 0.7940972222222222,
+                "hough_lines_count": 1474.0,
+                "aspect_ratio": 4.8,
+                "straightness": 0.17565383734874196
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064207.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 156.0090789794922,
+                "skel_length": 428992.0,
+                "avg_width": 28.343162536621094,
+                "width_variance": 18.40428545789399,
+                "solidity": 0.3453198409830141,
+                "perimeter": 482.55129647254944,
+                "shape_anomaly": 0.7839110739146002,
+                "hough_lines_count": 1095.0,
+                "aspect_ratio": 5.504293276303199,
+                "straightness": 0.1437507599227976
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064309.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 111.16203308105469,
+                "skel_length": 388944.0,
+                "avg_width": 25.557283401489258,
+                "width_variance": 10.359807669718764,
+                "solidity": 0.3649893692416726,
+                "perimeter": 371.5807341337204,
+                "shape_anomaly": 0.7280886612446948,
+                "hough_lines_count": 769.0,
+                "aspect_ratio": 4.349524608494858,
+                "straightness": 0.19218425386514565
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064416.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 171.57562255859375,
+                "skel_length": 470764.0,
+                "avg_width": 75.90090942382812,
+                "width_variance": 105.9164218703814,
+                "solidity": 0.13630244559120486,
+                "perimeter": 706.3919157981873,
+                "shape_anomaly": 0.9067017033229464,
+                "hough_lines_count": 1620.0,
+                "aspect_ratio": 2.260521301536998,
+                "straightness": 0.058732851523156535
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064734.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 77.10761260986328,
+                "skel_length": 438640.0,
+                "avg_width": 44.92633819580078,
+                "width_variance": 39.50798783867897,
+                "solidity": 0.32055974165769646,
+                "perimeter": 383.92387998104095,
+                "shape_anomaly": 0.785085150891323,
+                "hough_lines_count": 1397.0,
+                "aspect_ratio": 1.7163119832693252,
+                "straightness": 0.09069538605610021
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064357.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 145.08367919921875,
+                "skel_length": 460784.0,
+                "avg_width": 26.764585494995117,
+                "width_variance": 11.900516340900731,
+                "solidity": 0.26580152671755725,
+                "perimeter": 444.69343185424805,
+                "shape_anomaly": 0.7758237018957514,
+                "hough_lines_count": 1398.0,
+                "aspect_ratio": 5.420733275557318,
+                "straightness": 0.1911205817546388
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064934.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 110.78459930419922,
+                "skel_length": 405621.0,
+                "avg_width": 25.5631160736084,
+                "width_variance": 10.643734342694003,
+                "solidity": 0.33985273815002304,
+                "perimeter": 351.72286891937256,
+                "shape_anomaly": 0.7392301865032007,
+                "hough_lines_count": 1045.0,
+                "aspect_ratio": 4.333767408683571,
+                "straightness": 0.1872030959205132
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064601.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 154.0,
+                "skel_length": 436301.0,
+                "avg_width": 29.0,
+                "width_variance": 16.529534745955683,
+                "solidity": 0.22111408416443687,
+                "perimeter": 510.1076456308365,
+                "shape_anomaly": 0.796462158531124,
+                "hough_lines_count": 1473.0,
+                "aspect_ratio": 5.310344827586207,
+                "straightness": 0.17592595636762087
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064142.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 147.37498474121094,
+                "skel_length": 439934.0,
+                "avg_width": 24.597537994384766,
+                "width_variance": 11.974834337830359,
+                "solidity": 0.3080906148867314,
+                "perimeter": 438.6518017053604,
+                "shape_anomaly": 0.7373837865272579,
+                "hough_lines_count": 1130.0,
+                "aspect_ratio": 5.9914526720053995,
+                "straightness": 0.18976429992675817
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064743.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 98.81549835205078,
+                "skel_length": 467206.0,
+                "avg_width": 65.50973510742188,
+                "width_variance": 82.46144603404971,
+                "solidity": 0.2672746404770256,
+                "perimeter": 680.877197265625,
+                "shape_anomaly": 0.8234306485567168,
+                "hough_lines_count": 1596.0,
+                "aspect_ratio": 1.5084093713707531,
+                "straightness": 0.08232112716752332
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065230.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 106.64265441894531,
+                "skel_length": 447073.0,
+                "avg_width": 40.221466064453125,
+                "width_variance": 27.07976397195698,
+                "solidity": 0.2784890153311206,
+                "perimeter": 520.1076453924179,
+                "shape_anomaly": 0.7946063250616009,
+                "hough_lines_count": 1404.0,
+                "aspect_ratio": 2.651386556821553,
+                "straightness": 0.11250241610552275
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064610.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 145.72061157226562,
+                "skel_length": 416278.0,
+                "avg_width": 58.07877731323242,
+                "width_variance": 42.89937583844703,
+                "solidity": 0.2172534352386373,
+                "perimeter": 629.3624782562256,
+                "shape_anomaly": 0.842141486838231,
+                "hough_lines_count": 1170.0,
+                "aspect_ratio": 2.5090165171067618,
+                "straightness": 0.1129949816374444
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065258.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 223.9876251220703,
+                "skel_length": 454141.0,
+                "avg_width": 30.174026489257812,
+                "width_variance": 16.93441706941404,
+                "solidity": 0.26122249388753055,
+                "perimeter": 697.806129693985,
+                "shape_anomaly": 0.8024001548039033,
+                "hough_lines_count": 1461.0,
+                "aspect_ratio": 7.423193096281388,
+                "straightness": 0.1655005206097912
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064107.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 533.5219116210938,
+                "skel_length": 461511.0,
+                "avg_width": 68.62239837646484,
+                "width_variance": 82.01933824336452,
+                "solidity": 0.1242779259946642,
+                "perimeter": 1607.0020878314972,
+                "shape_anomaly": 0.9268400335773765,
+                "hough_lines_count": 1445.0,
+                "aspect_ratio": 7.774748831921818,
+                "straightness": 0.13551200766035498
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064849.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 82.62066650390625,
+                "skel_length": 470115.0,
+                "avg_width": 59.31374740600586,
+                "width_variance": 68.61184086059625,
+                "solidity": 0.2901934623082055,
+                "perimeter": 677.4629839658737,
+                "shape_anomaly": 0.7780857411934483,
+                "hough_lines_count": 1922.0,
+                "aspect_ratio": 1.3929429536522664,
+                "straightness": 0.07514644572504764
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065109.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 115.65984344482422,
+                "skel_length": 461627.0,
+                "avg_width": 87.26171112060547,
+                "width_variance": 116.90568502654845,
+                "solidity": 0.15555734018631545,
+                "perimeter": 564.5512963533401,
+                "shape_anomaly": 0.9040393236949192,
+                "hough_lines_count": 1482.0,
+                "aspect_ratio": 1.325436344984908,
+                "straightness": 0.07810668671570035
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064709.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 172.47259521484375,
+                "skel_length": 418414.0,
+                "avg_width": 76.95658111572266,
+                "width_variance": 130.8069766422852,
+                "solidity": 0.18253550762756443,
+                "perimeter": 783.8477598428726,
+                "shape_anomaly": 0.8692825354830171,
+                "hough_lines_count": 1265.0,
+                "aspect_ratio": 2.2411675871552803,
+                "straightness": 0.05978887301973036
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065012.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 90.4189453125,
+                "skel_length": 479463.0,
+                "avg_width": 55.88392639160156,
+                "width_variance": 75.97488893613234,
+                "solidity": 0.23687014766326686,
+                "perimeter": 470.02438497543335,
+                "shape_anomaly": 0.8460310145337001,
+                "hough_lines_count": 1950.0,
+                "aspect_ratio": 1.6179776753497492,
+                "straightness": 0.09324436169504557
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065149.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 148.13510131835938,
+                "skel_length": 443252.0,
+                "avg_width": 57.4566650390625,
+                "width_variance": 62.642988808440535,
+                "solidity": 0.1815240527884206,
+                "perimeter": 659.019332408905,
+                "shape_anomaly": 0.8747554573425289,
+                "hough_lines_count": 1304.0,
+                "aspect_ratio": 2.5782057002028957,
+                "straightness": 0.09708026829774788
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065052.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 118.4046859741211,
+                "skel_length": 463048.0,
+                "avg_width": 112.70043182373047,
+                "width_variance": 255.6394744475208,
+                "solidity": 0.17686986876979766,
+                "perimeter": 672.0487701892853,
+                "shape_anomaly": 0.8974840060077958,
+                "hough_lines_count": 1814.0,
+                "aspect_ratio": 1.0506143060686084,
+                "straightness": 0.05299390665110804
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064943.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 141.57321166992188,
+                "skel_length": 470360.0,
+                "avg_width": 28.712196350097656,
+                "width_variance": 16.701315225309294,
+                "solidity": 0.25606177606177605,
+                "perimeter": 448.5096663236618,
+                "shape_anomaly": 0.7960578324097956,
+                "hough_lines_count": 1882.0,
+                "aspect_ratio": 4.930769138789355,
+                "straightness": 0.14697856555070735
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064454.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 221.10369873046875,
+                "skel_length": 438787.0,
+                "avg_width": 53.863006591796875,
+                "width_variance": 51.76714855778998,
+                "solidity": 0.19722327881323698,
+                "perimeter": 1028.7178170681,
+                "shape_anomaly": 0.8693878988517207,
+                "hough_lines_count": 1374.0,
+                "aspect_ratio": 4.10492678966313,
+                "straightness": 0.10565022985423796
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064716.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 114.6213607788086,
+                "skel_length": 465866.0,
+                "avg_width": 44.28599548339844,
+                "width_variance": 42.06345680592554,
+                "solidity": 0.2459236095599732,
+                "perimeter": 604.4507913589478,
+                "shape_anomaly": 0.7831020998635215,
+                "hough_lines_count": 1659.0,
+                "aspect_ratio": 2.588207841500975,
+                "straightness": 0.11168054856489378
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065206.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 225.25975036621094,
+                "skel_length": 452007.0,
+                "avg_width": 38.40204620361328,
+                "width_variance": 27.399026952774417,
+                "solidity": 0.23270214484429685,
+                "perimeter": 726.2914105653763,
+                "shape_anomaly": 0.8501231500109073,
+                "hough_lines_count": 1489.0,
+                "aspect_ratio": 5.865826762768075,
+                "straightness": 0.12513468365562824
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064911.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 128.33108520507812,
+                "skel_length": 463784.0,
+                "avg_width": 49.867462158203125,
+                "width_variance": 41.068202184167134,
+                "solidity": 0.21781663024248102,
+                "perimeter": 616.4924213886261,
+                "shape_anomaly": 0.8364727629100797,
+                "hough_lines_count": 1689.0,
+                "aspect_ratio": 2.573443276458532,
+                "straightness": 0.10134282271581431
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065117.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 144.99659729003906,
+                "skel_length": 438293.0,
+                "avg_width": 32.46686935424805,
+                "width_variance": 21.632997205791025,
+                "solidity": 0.22093023255813954,
+                "perimeter": 550.0071399211884,
+                "shape_anomaly": 0.8123241766308146,
+                "hough_lines_count": 1293.0,
+                "aspect_ratio": 4.465986409344619,
+                "straightness": 0.1299110358798951
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064117.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 220.19998168945312,
+                "skel_length": 464054.0,
+                "avg_width": 46.779884338378906,
+                "width_variance": 42.58415992091365,
+                "solidity": 0.24183097610255697,
+                "perimeter": 772.8355672359467,
+                "shape_anomaly": 0.8315200613149674,
+                "hough_lines_count": 1441.0,
+                "aspect_ratio": 4.707151050153363,
+                "straightness": 0.11854308693798343
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064505.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 312.2635498046875,
+                "skel_length": 439804.0,
+                "avg_width": 72.80036926269531,
+                "width_variance": 76.31081143801335,
+                "solidity": 0.16499344019166048,
+                "perimeter": 1709.6782746315002,
+                "shape_anomaly": 0.8727615139516778,
+                "hough_lines_count": 1379.0,
+                "aspect_ratio": 4.289312718702087,
+                "straightness": 0.0889626411603598
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064302.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 140.2826385498047,
+                "skel_length": 419191.0,
+                "avg_width": 35.941131591796875,
+                "width_variance": 24.1881618048145,
+                "solidity": 0.3217260685511402,
+                "perimeter": 698.2497806549072,
+                "shape_anomaly": 0.766358697846051,
+                "hough_lines_count": 1153.0,
+                "aspect_ratio": 3.903122476583973,
+                "straightness": 0.12916098075950258
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065212.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 104.65180206298828,
+                "skel_length": 460821.0,
+                "avg_width": 53.740108489990234,
+                "width_variance": 52.43614925178566,
+                "solidity": 0.28696098562628336,
+                "perimeter": 514.9360723495483,
+                "shape_anomaly": 0.8012090754407968,
+                "hough_lines_count": 1454.0,
+                "aspect_ratio": 1.947368641477175,
+                "straightness": 0.08166389818098946
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064349.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 174.06854248046875,
+                "skel_length": 451379.0,
+                "avg_width": 43.450313568115234,
+                "width_variance": 31.957608673950414,
+                "solidity": 0.28047563612173626,
+                "perimeter": 728.9188272953033,
+                "shape_anomaly": 0.7770162896371268,
+                "hough_lines_count": 1336.0,
+                "aspect_ratio": 4.006151582947469,
+                "straightness": 0.1205532226689757
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064834.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 62.50640106201172,
+                "skel_length": 457001.0,
+                "avg_width": 40.68353271484375,
+                "width_variance": 33.33780487529144,
+                "solidity": 0.26743688489516476,
+                "perimeter": 336.02438521385193,
+                "shape_anomaly": 0.7542254748366144,
+                "hough_lines_count": 1600.0,
+                "aspect_ratio": 1.5364054419788795,
+                "straightness": 0.08369716697517411
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065029.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 175.0,
+                "skel_length": 444202.0,
+                "avg_width": 19.0,
+                "width_variance": 5.847927482117935,
+                "solidity": 0.34868695289704044,
+                "perimeter": 475.09545278549194,
+                "shape_anomaly": 0.7484210526315789,
+                "hough_lines_count": 1512.0,
+                "aspect_ratio": 9.210526315789474,
+                "straightness": 0.24100200040137704
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065306.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 75.0,
+                "skel_length": 454495.0,
+                "avg_width": 40.0,
+                "width_variance": 28.653463692134366,
+                "solidity": 0.33204732510288065,
+                "perimeter": 341.23758816719055,
+                "shape_anomaly": 0.7848333333333333,
+                "hough_lines_count": 1304.0,
+                "aspect_ratio": 1.875,
+                "straightness": 0.13225310434473098
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065101.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 95.74881744384766,
+                "skel_length": 472198.0,
+                "avg_width": 34.25776290893555,
+                "width_variance": 20.68203687430863,
+                "solidity": 0.3894328845369237,
+                "perimeter": 400.7523070573807,
+                "shape_anomaly": 0.7090063483441695,
+                "hough_lines_count": 1617.0,
+                "aspect_ratio": 2.794952422852843,
+                "straightness": 0.1290072648118559
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064554.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 146.15147399902344,
+                "skel_length": 458336.0,
+                "avg_width": 53.4962043762207,
+                "width_variance": 72.05936021149591,
+                "solidity": 0.2183637433784579,
+                "perimeter": 732.877197265625,
+                "shape_anomaly": 0.8576462227838747,
+                "hough_lines_count": 1536.0,
+                "aspect_ratio": 2.731997077235416,
+                "straightness": 0.09870356006036018
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064619.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 299.13397216796875,
+                "skel_length": 448429.0,
+                "avg_width": 46.3299560546875,
+                "width_variance": 33.014324827319854,
+                "solidity": 0.1852503103020273,
+                "perimeter": 1081.386863708496,
+                "shape_anomaly": 0.8707686266504993,
+                "hough_lines_count": 1517.0,
+                "aspect_ratio": 6.456599523100636,
+                "straightness": 0.1316025866643837
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065130.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 111.57878875732422,
+                "skel_length": 461394.0,
+                "avg_width": 47.471290588378906,
+                "width_variance": 43.5295175992972,
+                "solidity": 0.3045506375038872,
+                "perimeter": 762.818322300911,
+                "shape_anomaly": 0.7226621692895565,
+                "hough_lines_count": 1493.0,
+                "aspect_ratio": 2.3504477627292273,
+                "straightness": 0.10460303051683646
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064648.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 44.659263610839844,
+                "skel_length": 318710.0,
+                "avg_width": 22.91860008239746,
+                "width_variance": 9.833287316855538,
+                "solidity": 0.44243792325056436,
+                "perimeter": 181.74011421203613,
+                "shape_anomaly": 0.6170108921546069,
+                "hough_lines_count": 235.0,
+                "aspect_ratio": 1.948603468374153,
+                "straightness": 0.18495471810103487
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064445.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 172.0,
+                "skel_length": 466800.0,
+                "avg_width": 44.0,
+                "width_variance": 33.90123558911427,
+                "solidity": 0.27004971391051497,
+                "perimeter": 848.7766921520233,
+                "shape_anomaly": 0.8097912262156448,
+                "hough_lines_count": 1413.0,
+                "aspect_ratio": 3.909090909090909,
+                "straightness": 0.11802477644437444
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064523.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 73.03367614746094,
+                "skel_length": 439159.0,
+                "avg_width": 67.1816177368164,
+                "width_variance": 98.21004398653345,
+                "solidity": 0.3584932480454869,
+                "perimeter": 448.6518017053604,
+                "shape_anomaly": 0.7429950620410792,
+                "hough_lines_count": 1544.0,
+                "aspect_ratio": 1.0871080305563634,
+                "straightness": 0.0632291205461606
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064529.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 259.18597412109375,
+                "skel_length": 460178.0,
+                "avg_width": 72.90191650390625,
+                "width_variance": 115.98206393820567,
+                "solidity": 0.13458286358511837,
+                "perimeter": 796.2081506252289,
+                "shape_anomaly": 0.924186911550213,
+                "hough_lines_count": 1577.0,
+                "aspect_ratio": 3.555269690436821,
+                "straightness": 0.08319611832823559
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064317.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 128.7290496826172,
+                "skel_length": 379677.0,
+                "avg_width": 28.286287307739258,
+                "width_variance": 13.850072588162758,
+                "solidity": 0.3343315131231284,
+                "perimeter": 425.9655100107193,
+                "shape_anomaly": 0.7393764230453876,
+                "hough_lines_count": 745.0,
+                "aspect_ratio": 4.550934814531009,
+                "straightness": 0.18255934107052932
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064425.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 138.96546936035156,
+                "skel_length": 435234.0,
+                "avg_width": 33.503753662109375,
+                "width_variance": 22.312417729723823,
+                "solidity": 0.21567234848484848,
+                "perimeter": 504.1076455116272,
+                "shape_anomaly": 0.8043328084544328,
+                "hough_lines_count": 1091.0,
+                "aspect_ratio": 4.147758211269107,
+                "straightness": 0.153731914312953
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064842.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 96.39671325683594,
+                "skel_length": 460570.0,
+                "avg_width": 92.88321685791016,
+                "width_variance": 229.1600770562015,
+                "solidity": 0.18119139547710977,
+                "perimeter": 606.0071402788162,
+                "shape_anomaly": 0.8899329937531255,
+                "hough_lines_count": 1628.0,
+                "aspect_ratio": 1.0378270318124383,
+                "straightness": 0.055607981177635504
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064828.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 108.02997589111328,
+                "skel_length": 458499.0,
+                "avg_width": 93.17017364501953,
+                "width_variance": 189.28405029976994,
+                "solidity": 0.1684971098265896,
+                "perimeter": 785.3624787330627,
+                "shape_anomaly": 0.8841549806726143,
+                "hough_lines_count": 1755.0,
+                "aspect_ratio": 1.1594909794062414,
+                "straightness": 0.06070219778796931
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065036.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 188.74118041992188,
+                "skel_length": 474701.0,
+                "avg_width": 39.70573425292969,
+                "width_variance": 23.672517516813546,
+                "solidity": 0.24068406840684067,
+                "perimeter": 726.8771975040436,
+                "shape_anomaly": 0.8215931567534442,
+                "hough_lines_count": 1883.0,
+                "aspect_ratio": 4.753499311147875,
+                "straightness": 0.14297160056129507
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064149.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 117.12609100341797,
+                "skel_length": 397999.0,
+                "avg_width": 23.596097946166992,
+                "width_variance": 9.562213285798443,
+                "solidity": 0.3882874015748031,
+                "perimeter": 338.3675309419632,
+                "shape_anomaly": 0.7145150859193532,
+                "hough_lines_count": 781.0,
+                "aspect_ratio": 4.963790677197296,
+                "straightness": 0.18789580952442533
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064256.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 163.0,
+                "skel_length": 442380.0,
+                "avg_width": 75.0,
+                "width_variance": 140.74601651581864,
+                "solidity": 0.18486199987072588,
+                "perimeter": 807.5046138763428,
+                "shape_anomaly": 0.8830265848670756,
+                "hough_lines_count": 1470.0,
+                "aspect_ratio": 2.1733333333333333,
+                "straightness": 0.06577488838547661
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065043.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 313.0380859375,
+                "skel_length": 479714.0,
+                "avg_width": 33.37234878540039,
+                "width_variance": 15.896752845882189,
+                "solidity": 0.2223779490773184,
+                "perimeter": 897.0193328857422,
+                "shape_anomaly": 0.8633076360839762,
+                "hough_lines_count": 1854.0,
+                "aspect_ratio": 9.380163438614387,
+                "straightness": 0.18070754602688716
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064331.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 188.67552185058594,
+                "skel_length": 444695.0,
+                "avg_width": 59.2009162902832,
+                "width_variance": 88.33951155765163,
+                "solidity": 0.19104288430392227,
+                "perimeter": 760.977702498436,
+                "shape_anomaly": 0.8785560708970671,
+                "hough_lines_count": 1457.0,
+                "aspect_ratio": 3.18703718917867,
+                "straightness": 0.06258607570336515
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064511.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 61.0,
+                "skel_length": 446482.0,
+                "avg_width": 32.0,
+                "width_variance": 21.120677177396676,
+                "solidity": 0.5538911216660577,
+                "perimeter": 285.0538226366043,
+                "shape_anomaly": 0.6116803278688525,
+                "hough_lines_count": 1272.0,
+                "aspect_ratio": 1.90625,
+                "straightness": 0.11849531926936062
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064215.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 130.88375854492188,
+                "skel_length": 448653.0,
+                "avg_width": 23.733823776245117,
+                "width_variance": 9.390786430501096,
+                "solidity": 0.27154440882519326,
+                "perimeter": 420.6518017053604,
+                "shape_anomaly": 0.7682183634212649,
+                "hough_lines_count": 1339.0,
+                "aspect_ratio": 5.514651148455975,
+                "straightness": 0.19495393543968778
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065241.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 167.0,
+                "skel_length": 423363.0,
+                "avg_width": 25.0,
+                "width_variance": 13.480587734523645,
+                "solidity": 0.3637225470058461,
+                "perimeter": 480.6518017053604,
+                "shape_anomaly": 0.724311377245509,
+                "hough_lines_count": 1353.0,
+                "aspect_ratio": 6.68,
+                "straightness": 0.1682046038422268
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065020.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 210.01620483398438,
+                "skel_length": 488008.0,
+                "avg_width": 26.093515396118164,
+                "width_variance": 11.201231066624796,
+                "solidity": 0.3318192141721554,
+                "perimeter": 776.5340512990952,
+                "shape_anomaly": 0.7333971318568465,
+                "hough_lines_count": 2193.0,
+                "aspect_ratio": 8.048597578585664,
+                "straightness": 0.166519509140443
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064223.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 164.97703552246094,
+                "skel_length": 437834.0,
+                "avg_width": 46.41541290283203,
+                "width_variance": 40.75385816288165,
+                "solidity": 0.23483698079499776,
+                "perimeter": 644.4924213886261,
+                "shape_anomaly": 0.828337719894602,
+                "hough_lines_count": 1360.0,
+                "aspect_ratio": 3.554358890824278,
+                "straightness": 0.11181703882435873
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064124.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 255.2040557861328,
+                "skel_length": 462244.0,
+                "avg_width": 45.568660736083984,
+                "width_variance": 36.32615864681085,
+                "solidity": 0.18674426488868798,
+                "perimeter": 971.0609629154205,
+                "shape_anomaly": 0.8579021093173905,
+                "hough_lines_count": 1425.0,
+                "aspect_ratio": 5.600429147219748,
+                "straightness": 0.11248095075258739
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064158.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 133.56265258789062,
+                "skel_length": 448418.0,
+                "avg_width": 37.83732986450195,
+                "width_variance": 28.836110043950104,
+                "solidity": 0.2701656603189348,
+                "perimeter": 528.3502861261368,
+                "shape_anomaly": 0.8273526491490748,
+                "hough_lines_count": 1339.0,
+                "aspect_ratio": 3.5299174932847417,
+                "straightness": 0.1460074599698435
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064812.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 132.7373046875,
+                "skel_length": 463889.0,
+                "avg_width": 27.021865844726562,
+                "width_variance": 17.134592327876053,
+                "solidity": 0.2035777646363099,
+                "perimeter": 442.2081503868103,
+                "shape_anomaly": 0.8080466851796464,
+                "hough_lines_count": 1581.0,
+                "aspect_ratio": 4.912218329046448,
+                "straightness": 0.1587574340503001
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065156.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 169.0,
+                "skel_length": 456150.0,
+                "avg_width": 28.0,
+                "width_variance": 13.295566014765017,
+                "solidity": 0.3356575094129131,
+                "perimeter": 641.0365777015686,
+                "shape_anomaly": 0.7456677937447168,
+                "hough_lines_count": 1529.0,
+                "aspect_ratio": 6.035714285714286,
+                "straightness": 0.1481108183884344
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064340.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 100.15093231201172,
+                "skel_length": 447147.0,
+                "avg_width": 58.993621826171875,
+                "width_variance": 57.20593266399933,
+                "solidity": 0.2774269005847953,
+                "perimeter": 780.4751762151718,
+                "shape_anomaly": 0.7992642926769379,
+                "hough_lines_count": 1441.0,
+                "aspect_ratio": 1.6976569536129218,
+                "straightness": 0.08879485332455703
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064230.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 141.59584045410156,
+                "skel_length": 426371.0,
+                "avg_width": 55.5008659362793,
+                "width_variance": 57.29946177080613,
+                "solidity": 0.21584470094438615,
+                "perimeter": 719.4629838466644,
+                "shape_anomaly": 0.8691257996052936,
+                "hough_lines_count": 1326.0,
+                "aspect_ratio": 2.551236599022944,
+                "straightness": 0.08644203901218317
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064918.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 559.9530029296875,
+                "skel_length": 462005.0,
+                "avg_width": 33.279869079589844,
+                "width_variance": 17.43450918843995,
+                "solidity": 0.1755687761506276,
+                "perimeter": 1632.4823166131973,
+                "shape_anomaly": 0.8558907129722186,
+                "hough_lines_count": 1727.0,
+                "aspect_ratio": 16.8255770955872,
+                "straightness": 0.1432198651159986
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064750.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 67.10833740234375,
+                "skel_length": 441953.0,
+                "avg_width": 38.476837158203125,
+                "width_variance": 28.53526122490226,
+                "solidity": 0.6446449359720605,
+                "perimeter": 288.46803617477417,
+                "shape_anomaly": 0.5710883029887843,
+                "hough_lines_count": 1455.0,
+                "aspect_ratio": 1.744123019426416,
+                "straightness": 0.09317832401418895
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_065000.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 123.90320587158203,
+                "skel_length": 336481.0,
+                "avg_width": 24.65952491760254,
+                "width_variance": 8.158388453265708,
+                "solidity": 0.32855335301560523,
+                "perimeter": 366.65180146694183,
+                "shape_anomaly": 0.7450410811486746,
+                "hough_lines_count": 604.0,
+                "aspect_ratio": 5.0245577027778445,
+                "straightness": 0.20398020917579793
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064759.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 206.26661682128906,
+                "skel_length": 443256.0,
+                "avg_width": 40.234371185302734,
+                "width_variance": 25.33017303469068,
+                "solidity": 0.31708980674497916,
+                "perimeter": 999.3868638277054,
+                "shape_anomaly": 0.7479216679029963,
+                "hough_lines_count": 1546.0,
+                "aspect_ratio": 5.126627078905025,
+                "straightness": 0.12691900045840396
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064133.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 194.30039978027344,
+                "skel_length": 440408.0,
+                "avg_width": 35.70241928100586,
+                "width_variance": 24.94253747413607,
+                "solidity": 0.22189922480620156,
+                "perimeter": 675.5218589305878,
+                "shape_anomaly": 0.8514486318456753,
+                "hough_lines_count": 1334.0,
+                "aspect_ratio": 5.442219426391749,
+                "straightness": 0.15421648358522633
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064655.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 93.8851089477539,
+                "skel_length": 428660.0,
+                "avg_width": 50.807437896728516,
+                "width_variance": 48.25293666939929,
+                "solidity": 0.24996125832945917,
+                "perimeter": 431.5807338953018,
+                "shape_anomaly": 0.8309246239011617,
+                "hough_lines_count": 1307.0,
+                "aspect_ratio": 1.847861510721822,
+                "straightness": 0.08003378947268397
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064247.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 228.98741149902344,
+                "skel_length": 400555.0,
+                "avg_width": 46.97087860107422,
+                "width_variance": 29.442725595502683,
+                "solidity": 0.20862745098039215,
+                "perimeter": 921.587874174118,
+                "shape_anomaly": 0.8516141135946791,
+                "hough_lines_count": 1063.0,
+                "aspect_ratio": 4.875093213474328,
+                "straightness": 0.1372868326182434
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064435.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 86.2528305053711,
+                "skel_length": 469467.0,
+                "avg_width": 38.25401306152344,
+                "width_variance": 27.020108911066426,
+                "solidity": 0.40008041817450746,
+                "perimeter": 453.76449942588806,
+                "shape_anomaly": 0.6984407024650032,
+                "hough_lines_count": 1625.0,
+                "aspect_ratio": 2.25473940124012,
+                "straightness": 0.11794006223632601
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064544.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 199.9100341796875,
+                "skel_length": 450227.0,
+                "avg_width": 52.42933654785156,
+                "width_variance": 40.04749947039728,
+                "solidity": 0.2106149390449249,
+                "perimeter": 941.688379406929,
+                "shape_anomaly": 0.850827444394289,
+                "hough_lines_count": 1444.0,
+                "aspect_ratio": 3.812942282747222,
+                "straightness": 0.09383914442266396
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064926.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 138.647216796875,
+                "skel_length": 460368.0,
+                "avg_width": 23.757057189941406,
+                "width_variance": 8.812730501445579,
+                "solidity": 0.41941325606664254,
+                "perimeter": 426.5096663236618,
+                "shape_anomaly": 0.6484357060319277,
+                "hough_lines_count": 1732.0,
+                "aspect_ratio": 5.83604339916214,
+                "straightness": 0.1601111914740414
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064537.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 122.34043884277344,
+                "skel_length": 449925.0,
+                "avg_width": 75.31843566894531,
+                "width_variance": 107.31222348217412,
+                "solidity": 0.2042492694099992,
+                "perimeter": 708.3919161558151,
+                "shape_anomaly": 0.8596775368283021,
+                "hough_lines_count": 1403.0,
+                "aspect_ratio": 1.6243093441359917,
+                "straightness": 0.056317577104327
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064629.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 190.0,
+                "skel_length": 431421.0,
+                "avg_width": 48.0,
+                "width_variance": 57.193952520292235,
+                "solidity": 0.2230585318338794,
+                "perimeter": 650.9777026176453,
+                "shape_anomaly": 0.8618969298245613,
+                "hough_lines_count": 1246.0,
+                "aspect_ratio": 3.9583333333333335,
+                "straightness": 0.08506382274488068
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064703.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 199.56304931640625,
+                "skel_length": 467784.0,
+                "avg_width": 44.119789123535156,
+                "width_variance": 27.675392643781155,
+                "solidity": 0.31930713293569735,
+                "perimeter": 1015.7300096750259,
+                "shape_anomaly": 0.778072561742422,
+                "hough_lines_count": 1741.0,
+                "aspect_ratio": 4.523209500336252,
+                "straightness": 0.1160617326697301
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064805.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 82.22640228271484,
+                "skel_length": 453134.0,
+                "avg_width": 45.730350494384766,
+                "width_variance": 41.00272179172086,
+                "solidity": 0.20427515268402444,
+                "perimeter": 454.40916109085083,
+                "shape_anomaly": 0.8309949288297018,
+                "hough_lines_count": 1578.0,
+                "aspect_ratio": 1.798070677214937,
+                "straightness": 0.09378469742502721
+            }
+        },
+        {
+            "file": "/home/sharan/Documents/python/incense_stick_quality_control/input/good/20260728_064641.jpg",
+            "is_defective": true,
+            "detected_defects": [
+                "Cracked or irregular surface",
+                "Bent or curved stick",
+                "Uneven coating or surface damage",
+                "Missing sections or shape irregularities",
+                "Broken stick or significant length variation",
+                "Surface cracks detected"
+            ],
+            "measurements": {
+                "length": 249.8738250732422,
+                "skel_length": 478904.0,
+                "avg_width": 42.85069274902344,
+                "width_variance": 30.70932373519295,
+                "solidity": 0.23690965092402463,
+                "perimeter": 1145.5289993286133,
+                "shape_anomaly": 0.8275937187825145,
+                "hough_lines_count": 1968.0,
+                "aspect_ratio": 5.831266872084274,
+                "straightness": 0.11531254759881018
+            }
+        }
+    ]
+}
