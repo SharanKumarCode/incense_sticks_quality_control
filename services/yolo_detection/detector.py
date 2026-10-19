@@ -1,35 +1,63 @@
 from pathlib import Path
+from dataclasses import dataclass
 
 from ultralytics import YOLO
+
+from utils.logger import get_logger
+from services.yolo_detection.config import YOLODetectionConfig
+
+logger = get_logger(__name__)
+
+
+@dataclass(frozen=True, slots=True)
+class YOLOClassificationResult:
+    class_id: int
+    class_name: str
+    confidence: float
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 MODEL_PATH = PROJECT_ROOT / "runs" / "yolo-detection" / "baseline" / "weights" / "best.pt"
 
-def predict(image_path: str) -> list:
-    """Predict the class of an image using the trained model."""
-    model = YOLO(str(MODEL_PATH))
-    results = model.predict(source=image_path, 
-                            device="cpu", 
-                            verbose=False)
+class YOLODetector:
 
-    result = results[0]     # Get the first result (assuming single image input)
+    def __init__(
+            self,
+            config: YOLODetectionConfig
+    ) ->  None:
+        self.config = config
+        self.model  = YOLO(config.model_path)
 
-    class_id = result.probs.top1
-    confidence = float(result.probs.top1conf)
+    def predict(self, image_path: str | Path) -> YOLOClassificationResult:
+        results  = self.model.predict(
+            source=str(image_path),
+            device=self.config.device,
+            verbose=False
+        )
 
-    class_name = result.names[class_id] if class_id in result.names else "Unknown"
+        result = results[0]
 
-    print(f"Prediction : {class_name} (Confidence: {confidence:.2f})")
+        if result.probs is None:
+            raise ValueError(
+                "YOLO model did not return classification probabilites"
+            )
 
+        class_id = int(result.probs.top1)
+        confidence = float(result.probs.top1conf)
+        class_name = result.names.get(class_id, "unknown")
+        logger.info("YOLO classification completed",
+                    extra={
+                        "event": "yolo.classification.completed",
+                        "fields": {
+                            "class_id": class_id,
+                            "confidence": confidence,
+                            "class_name": class_name
+                        }
+                    })
 
-if __name__ == "__main__":
-    test_image_path = PROJECT_ROOT / "dataset" / "test" / "good" / "20260728_064107.jpg"
-    predict(str(test_image_path))
-    test_image_path = PROJECT_ROOT / "dataset" / "test" / "good" / "20260728_064207.jpg"
-    predict(str(test_image_path))
-    test_image_path = PROJECT_ROOT / "dataset" / "test" / "defective" / "IMG-20260728-WA0000.jpg"
-    predict(str(test_image_path))
-    test_image_path = PROJECT_ROOT / "dataset" / "test" / "defective" / "IMG-20260728-WA0001.jpg"
-    predict(str(test_image_path))
+        return YOLOClassificationResult(
+            class_id=class_id,
+            class_name=class_name,
+            confidence=confidence
+        )
